@@ -1,91 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 body {
-    font-family: 'Courgette', cursive;
-    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045) fixed;
-    padding: 50px;
-    margin: 30px;
+  font-family: "Courgette", cursive;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045) fixed;
+  padding: 50px;
+  margin: 30px;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav ul li {
-    list-style: none;
-    background-color: chartreuse;
-    padding: 2%;
-    border: 1px solid brown;
+  list-style: none;
+  background-color: chartreuse;
+  padding: 2%;
+  border: 1px solid brown;
 }
 
 nav ul li:hover {
-    color: darkgoldenrod;
+  color: darkgoldenrod;
 }
 
 img {
-    width: 750px;
-    height: 380px;
-    border: 1px solid brown;
+  width: 750px;
+  height: 380px;
+  border: 1px solid brown;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header div {
-    background-color: mediumpurple;
-    padding: 10px;
-    height: 360px;
-    text-align: center;
-    border: 1px solid black;
-    margin: 10px;
-
+  background-color: mediumpurple;
+  padding: 10px;
+  height: 360px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
 }
 
 .projects {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    text-align: center;
-    margin: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  margin: 20px;
 }
 
-
-
-
 .homework {
-    background-color: mediumvioletred;
-    border: 1px solid black;
-    padding: 10px;
-
+  background-color: mediumvioletred;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 a {
-    text-decoration: none;
-    color: midnightblue;
+  text-decoration: none;
+  color: maroon;
+  transition: ease-out;
+  text-decoration: underline;
 }
 
 section h3 {
-    text-align: center;
+  text-align: center;
 }
 
 section ul {
-    background-color: mediumpurple;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
+  background-color: mediumpurple;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
 }
 
 section ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .info {
-    background-color: mediumpurple;
-    justify-content: space-evenly;
-    display: flex;
-    border: 1px solid black;
-    margin: 10px;
+  background-color: mediumpurple;
+  justify-content: space-evenly;
+  display: flex;
+  border: 1px solid black;
+  margin: 10px;
 }
